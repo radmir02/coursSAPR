@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainscreen"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activity_menu">
+
+
+    <Button
+        android:id="@+id/idButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/button"
+        android:onClick="onClick1"
+        android:text="Технологические процессы контроля технического состояния ФС"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        app:backgroundTint="#BE0743A8" />
+
+
+    <Button
+        android:id="@+id/idButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/button"
+        android:onClick="onClick2"
+        android:text="Технологические процессы
+            поддержания и восстановления надежности ФС"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        app:backgroundTint="#BE0743A8" />
+
+
+    <Button
+        android:id="@+id/idButton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/button"
+        android:onClick="onClick3"
+        android:text="Технологические процессы общего назначения при обслуживании ЛА"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        app:backgroundTint="#BE0743A8" />
+
+
+</LinearLayout>
